@@ -77,6 +77,7 @@ describe "test de una familia que NO pasea" {
 	}
 	
 	test "intercambiar pares no ok" {
+		//TODO: Probar el error con un assert.throwsError
 		var ojotaIzq = ojotasMilena.izquierdo()
 		var ojotaDer= ojotasMilena.derecha()
 		var mediaIzq = mediasZoe.izquierdo()
